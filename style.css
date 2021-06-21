@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200,200,200);
+}
+
+.snake-game-view {
+     width: min(90vh,90vw);
+    height: min(90vh,90vw);
+    image-rendering: pixelated;
+    border: 1px solid black;
+}
